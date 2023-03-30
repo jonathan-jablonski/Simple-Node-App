@@ -33,7 +33,7 @@ pipeline:
                   identifier: Run_Unit_Tests
                   spec:
                     connectorRef: jmjDockerReg
-                    image: golang:1.15
+                    image: golang:1.19
                     shell: Sh
                     command: |-
                       go get gotest.tools/gotestsum
